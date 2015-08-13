@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>DisplayPhotoServlet</servlet-name>
+        <servlet-class>com.srikar.javaee.ch02.photoalbum.DisplayPhotoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DisplayPhotoServlet</servlet-name>
+        <url-pattern>/DisplayPhoto</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <serlvet-name>RemovePhoteServlet</serlvet-name>
+        <servlet-class>com.srikar.javaee.ch02.photoalbum.RemovePhotoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RemovePhotoServlet</servlet-name>
+        <url-pattern>/RemovePhoto</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <serlvet-name>DisplayPhotoAlbumServlet</serlvet-name>
+        <servlet-class>com.srikar.javaee.ch02.photoalbum.DisplayPhotoAlbumServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DisplayPhotoAlbumServlet</servlet-name>
+        <url-pattern>/DisplayPhotoAlbum*</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,4 @@
+com\srikar\javaee\ch02\photoalbum\PhotoAlbum.class
+com\srikar\javaee\ch02\photoalbum\DisplayPhotoServlet.class
+com\srikar\javaee\ch02\photoalbum\DisplayPhotoAlbumServlet.class
+com\srikar\javaee\ch02\photoalbum\RemovePhotoServlet.class
